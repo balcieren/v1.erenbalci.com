@@ -1,4 +1,5 @@
 import type { GetServerSideProps, NextPage } from "next";
+import Head from "next/head";
 import Footer from "../components/Footer";
 import HeaderSection from "../components/HeaderSection";
 import Navigation from "../components/Navigation";
@@ -10,6 +11,9 @@ import clsx from "clsx";
 const Home: NextPage<{ projects: any }> = ({ projects }) => {
   return (
     <main id="home">
+      <Head>
+        <title>Eren BALCI</title>
+      </Head>
       <Navigation />
       <HeaderSection />
       <div className={clsx("flex flex-col gap-24")}>
