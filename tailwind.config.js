@@ -1,16 +1,12 @@
-const colors = require("tailwindcss/colors");
-
 /**
  * @type {import("tailwindcss/defaultConfig")}
  */
 
 module.exports = {
-  purge: ["./pages/**/*.tsx", "./components/**/*.tsx"],
-  mode: "jit",
-  darkMode: false,
+  content: ["./src/pages/**/*.tsx", "./src/components/**/*.tsx"],
+  darkMode: "class",
   theme: {
     extend: {
-      colors: { sky: colors.sky, ...colors },
       container: {
         center: true,
         padding: {
@@ -23,9 +19,11 @@ module.exports = {
       },
     },
     fontFamily: {
-      mono: ["Montserrat", "mono"],
-      sans: ["Montserrat", "sans-serif"],
-      serif: ["Montserrat", "serif"],
+      sans: ["Nunito"],
+      serif: ["Nunito"],
+      mono: ["Nunito"],
+      display: ["Nunito"],
+      body: ["Nunito"],
     },
   },
   variants: {
