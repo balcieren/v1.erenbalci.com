@@ -20,7 +20,7 @@ const socialMedias = [
 
 export const Footer: FC = () => {
   return (
-    <footer className="flex items-center justify-between border-t border-zinc-200 pt-8 pb-12 dark:border-zinc-600">
+    <footer className="flex flex-col-reverse items-center justify-between gap-y-4 border-t border-zinc-200 pt-8 pb-12 dark:border-zinc-600 sm:flex-row sm:gap-y-0">
       <ul className="flex gap-6 text-zinc-600 dark:text-zinc-200">
         {socialMedias.map(({ href, icon }, index) => (
           <li key={index} className="cursor-pointer">
