@@ -9,7 +9,7 @@ const socialMedias = [
     icon: <RiInstagramLine />,
   },
   {
-    href: "https://twitter.com/_erenbalci_",
+    href: "https://twitter.com/eren_balci_",
     icon: <RiTwitterLine />,
   },
   {
