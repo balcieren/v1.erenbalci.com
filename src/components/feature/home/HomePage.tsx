@@ -28,7 +28,10 @@ export const getStaticProps: GetStaticProps = async () => {
     "https://api.github.com/users/balcieren/repos?per_page=11"
   );
 
-  return { props: { projects: projects.data.filter(({ fork }) => !fork) } };
+  return {
+    props: { projects: projects.data.filter(({ fork }) => !fork) },
+    revalidate: 5000,
+  };
 };
 
 export default HomePage;
