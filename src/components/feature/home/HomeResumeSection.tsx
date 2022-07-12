@@ -17,7 +17,8 @@ const tools = [
   "Notion",
   "Visual Studio Code",
   "Table Plus",
-  "Hoppscotch",
+  "Postman",
+  "Beekeeper Studio"
 ];
 
 export type HomeResumeSectionProps = {
@@ -29,7 +30,7 @@ export const HomeResumeSection: FC<HomeResumeSectionProps> = ({
 }) => {
   return (
     <SectionLayout title="Resume" id="resume" className={className}>
-      <div className="flex flex-col justify-around gap-4 lg:flex-row">
+      <div className="flex flex-col gap-4 justify-around lg:flex-row">
         <List title="Design" className="">
           {designSkills.map((skill, index) => (
             <ListItem key={index}>{skill}</ListItem>
