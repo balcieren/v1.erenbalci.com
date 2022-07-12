@@ -30,7 +30,7 @@ export const getStaticProps: GetStaticProps = async () => {
 
   return {
     props: { projects: projects.data.filter(({ fork }) => !fork) },
-    revalidate: 5000,
+    revalidate: 10,
   };
 };
 
