@@ -1,5 +1,5 @@
 import { Button } from "@components/shared";
-import { MailIcon, MoonIcon, SunIcon } from "@heroicons/react/outline";
+import { EnvelopeIcon, MoonIcon, SunIcon } from "@heroicons/react/24/outline";
 import { useTheme } from "next-themes";
 import { FC, ReactNode } from "react";
 import { Link } from "react-scroll";
@@ -25,7 +25,7 @@ export const Navbar: FC = () => {
     <nav className="flex items-center justify-between">
       <div className="flex items-center gap-3">
         <div className="flex rounded-full border border-zinc-600 p-1.5">
-          <MailIcon className="w-5 h-5 text-black dark:text-white" />
+          <EnvelopeIcon className="w-5 h-5 text-black dark:text-white" />
         </div>
         <h3 className="text-sm font-bold dark:text-white">
           erenbalci3939@gmail.com

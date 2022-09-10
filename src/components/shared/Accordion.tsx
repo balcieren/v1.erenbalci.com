@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import { Disclosure, Transition } from "@headlessui/react";
-import { ChevronUpIcon } from "@heroicons/react/outline";
+import { ChevronUpIcon } from "@heroicons/react/24/outline";
 import clsx from "clsx";
 import { FC, ReactNode } from "react";
 

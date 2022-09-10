@@ -1,4 +1,4 @@
-import { MailIcon } from "@heroicons/react/outline";
+import { EnvelopeIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
 import { FC } from "react";
 import { RiGithubLine, RiInstagramLine, RiTwitterLine } from "react-icons/ri";
@@ -32,7 +32,7 @@ export const Footer: FC = () => {
       </ul>
       <div className="flex items-center gap-3">
         <div className="flex rounded-full border border-zinc-600 p-1.5">
-          <MailIcon className="h-5 w-5 text-zinc-900 dark:text-white" />
+          <EnvelopeIcon className="h-5 w-5 text-zinc-900 dark:text-white" />
         </div>
         <h3 className="text-sm font-bold dark:text-white">
           erenbalci3939@gmail.com
