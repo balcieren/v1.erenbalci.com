@@ -5,11 +5,11 @@ import { RiGithubLine, RiInstagramLine, RiTwitterLine } from "react-icons/ri";
 
 const socialMedias = [
   {
-    href: "https://www.instagram.com/_erenblc_/",
+    href: "https://www.instagram.com/eren__balci/",
     icon: <RiInstagramLine />,
   },
   {
-    href: "https://twitter.com/eren_balci_",
+    href: "https://twitter.com/eren__balci",
     icon: <RiTwitterLine />,
   },
   {
