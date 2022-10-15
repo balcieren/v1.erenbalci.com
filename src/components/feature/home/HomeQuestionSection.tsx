@@ -9,7 +9,8 @@ const questions = [
   },
   {
     title: "Which programming language do you prefer for back-end?",
-    answer: "I used to use Node.JS but I am using Go at the moment.",
+    answer:
+      "If I wouldn't use Golang, I definitely say Node.JS but I prefer to use Golang. Because Golang is more powerful and faster.",
   },
 ];
 
@@ -22,7 +23,7 @@ export const HomeQuestionSection: FC<HomeQuestionSectionProps> = ({
 }) => {
   return (
     <SectionLayout title="Questions" id="questions" className={className}>
-      <div className="flex max-w-2xl flex-col justify-center">
+      <div className="flex flex-col justify-center max-w-2xl">
         {questions.map(({ title, answer }, index) => (
           <Accordion key={index} title={title}>
             {answer}
