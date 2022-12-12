@@ -23,7 +23,7 @@ export const HomeHeroSection: FC = () => {
           <span className="font-bold dark:text-white">
             Full-Stack Developer
           </span>{" "}
-          and{" "}
+          and an{" "}
           <span className="font-bold dark:text-white">
             Open Source Project Contributor
           </span>
