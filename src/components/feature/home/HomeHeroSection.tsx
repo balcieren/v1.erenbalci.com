@@ -14,7 +14,7 @@ export const HomeHeroSection: FC = () => {
           Hi, I am Eren 👋
         </h5>
         <h3 className="text-5xl font-extrabold dark:text-white sm:text-6xl md:text-7xl">
-          I have been trying to be a good
+          I have been trying to be a good{" "}
           <span className="underline decoration-blue-400">developer</span> for
           +5 years.
         </h3>
