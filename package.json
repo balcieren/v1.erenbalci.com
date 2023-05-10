@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "@headlessui/react": "^1.7.2",
-    "@heroicons/react": "^2.0.11",
+    "@heroicons/react": "^2.0.18",
     "axios": "^1.1.0",
     "clsx": "^1.2.1",
     "next": "13.4.1",
