@@ -1,7 +1,7 @@
 import { Button } from "@components/shared";
 import Link from "next/link";
 import { FC } from "react";
-import { RiGithubFill } from "react-icons/ri";
+import { RiGithubFill, RiLinkedinFill } from "react-icons/ri";
 
 export const HomeHeroSection: FC = () => {
     return (
@@ -31,11 +31,25 @@ export const HomeHeroSection: FC = () => {
                     </span>
                     .
                 </p>
-                <div>
+                <div className="flex items-center justify-center gap-x-4">
                     <Link href="https://github.com/balcieren" target="_blank">
                         <Button size="xl" variant="outline">
                             <RiGithubFill size={24} />
                             GitHub
+                        </Button>
+                    </Link>
+                    <Link
+                        href="https://www.linkedin.com/in/erenbalci"
+                        target="_blank"
+                    >
+                        <Button size="xl" variant="outline">
+                            <div className="flex gap-x-0.5 items-center justify-items-end">
+                                <RiLinkedinFill
+                                    className="bg-blue-600 rounded-sm text-white"
+                                    size={20}
+                                />
+                                LinkedIn
+                            </div>
                         </Button>
                     </Link>
                 </div>
