@@ -15,7 +15,7 @@
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "dependencies": {
-    "@headlessui/react": "^1.7.15",
+    "@headlessui/react": "^1.7.16",
     "@heroicons/react": "^2.0.18",
     "axios": "^1.1.0",
     "clsx": "^2.0.0",
