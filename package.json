@@ -31,7 +31,7 @@
     "@types/node": "20.4.9",
     "@types/react-scroll": "^1.8.4",
     "autoprefixer": "^10.4.12",
-    "eslint-config-next": "13.4.9",
+    "eslint-config-next": "13.4.13",
     "eslint": "8.46.0",
     "postcss": "^8.4.27",
     "prettier": "^3.0.1",
