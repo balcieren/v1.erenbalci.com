@@ -1,8 +1,10 @@
-import { Button } from "@components/shared";
+"use client";
+
 import clsx from "clsx";
 import Link from "next/link";
 import { FC } from "react";
 import { RiStarFill } from "react-icons/ri";
+import { Button } from "../../shared";
 
 export type Project = {
     id: string;
