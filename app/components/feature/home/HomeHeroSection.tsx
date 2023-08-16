@@ -1,7 +1,9 @@
-import { Button } from "@components/shared";
+"use client";
+
 import Link from "next/link";
 import { FC } from "react";
 import { RiGithubFill, RiLinkedinFill } from "react-icons/ri";
+import { Button } from "../../shared";
 
 export const HomeHeroSection: FC = () => {
     return (

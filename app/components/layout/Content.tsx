@@ -1,9 +1,11 @@
+"use client";
+
 import { FC, ReactNode } from "react";
 
 type ContentProps = {
-  children: ReactNode;
+    children: ReactNode;
 };
 
 export const Content: FC<ContentProps> = ({ children }) => {
-  return <div className="min-h-screen">{children}</div>;
+    return <div className="min-h-screen">{children}</div>;
 };

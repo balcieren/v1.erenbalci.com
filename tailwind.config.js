@@ -3,31 +3,31 @@
  */
 
 module.exports = {
-  content: ["./src/pages/**/*.tsx", "./src/components/**/*.tsx"],
-  darkMode: "class",
-  theme: {
-    extend: {
-      container: {
-        center: true,
-        padding: {
-          DEFAULT: "2rem",
-          sm: "4rem",
-          lg: "6rem",
-          xl: "6rem",
-          "2xl": "10rem",
+    content: ["./app/**/*.tsx"],
+    darkMode: "class",
+    theme: {
+        extend: {
+            container: {
+                center: true,
+                padding: {
+                    DEFAULT: "2rem",
+                    sm: "4rem",
+                    lg: "6rem",
+                    xl: "6rem",
+                    "2xl": "10rem",
+                },
+            },
         },
-      },
+        fontFamily: {
+            sans: ["Nunito"],
+            serif: ["Nunito"],
+            mono: ["Nunito"],
+            display: ["Nunito"],
+            body: ["Nunito"],
+        },
     },
-    fontFamily: {
-      sans: ["Nunito"],
-      serif: ["Nunito"],
-      mono: ["Nunito"],
-      display: ["Nunito"],
-      body: ["Nunito"],
+    variants: {
+        extend: {},
     },
-  },
-  variants: {
-    extend: {},
-  },
-  plugins: [],
+    plugins: [],
 };
