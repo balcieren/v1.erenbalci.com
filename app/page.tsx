@@ -1,4 +1,3 @@
-import axios from "axios";
 import { Metadata } from "next";
 import { HomeHeroSection } from "./components/feature/home/HomeHeroSection";
 import { HomeProjectSection } from "./components/feature/home/HomeProjectSection";
@@ -12,11 +11,15 @@ export const metadata: Metadata = {
 };
 
 export default async function Page() {
-    const projects = await axios.get<Project[]>(
-        "https://api.github.com/users/balcieren/repos?per_page=50"
-    );
+    const projects = (await fetch(
+        "https://api.github.com/users/balcieren/repos?per_page=50",
+        {
+            method: "GET",
+            cache: "force-cache",
+        }
+    ).then(async (res) => await res.json())) as Project[];
 
-    const filteredProjects = projects?.data
+    const filteredProjects = projects
         .sort((a, b) => {
             return b.stargazers_count - a.stargazers_count;
         })
