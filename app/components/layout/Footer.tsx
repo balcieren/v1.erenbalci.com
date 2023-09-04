@@ -46,7 +46,7 @@ export const Footer: FC = () => {
                     <EnvelopeIcon className="h-5 w-5 text-zinc-900 dark:text-white" />
                 </div>
                 <h3 className="text-sm font-bold dark:text-white">
-                    erenbalci3939@gmail.com
+                    me@erenbalci.com
                 </h3>
             </div>
         </footer>
