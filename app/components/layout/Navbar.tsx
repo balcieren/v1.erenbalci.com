@@ -30,7 +30,7 @@ export const Navbar: FC = () => {
                     <EnvelopeIcon className="w-5 h-5 text-black dark:text-white" />
                 </div>
                 <h3 className="text-sm font-bold dark:text-white">
-                    erenbalci3939@gmail.com
+                    me@erenbalci.com
                 </h3>
             </div>
             <div className="flex gap-x-8">
