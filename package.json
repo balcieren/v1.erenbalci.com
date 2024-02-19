@@ -27,7 +27,7 @@
     },
     "devDependencies": {
         "@types/node": "20.11.19",
-        "@types/react": "18.2.55",
+        "@types/react": "18.2.56",
         "@types/react-scroll": "^1.8.7",
         "autoprefixer": "^10.4.15",
         "eslint": "8.56.0",
